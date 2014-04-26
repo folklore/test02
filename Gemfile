@@ -4,7 +4,7 @@ ruby '2.1.1'
 
 gem 'rails', '4.0.3'
 
-gem 'redis'
+gem 'redis-rails'
 gem 'flickr_fu'
 
 group :development, :test do
