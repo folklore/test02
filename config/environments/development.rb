@@ -28,7 +28,7 @@ Vladimir::Application.configure do
   config.assets.debug = true
 
   config.cache_store = :redis_store,
-                       'redis://rediscloud:M44rEgcHiIL1qmVw@pub-redis-19464.us-east-1-2.1.ec2.garantiadata.com:19464',
+                       'redis://localhost:6379/0/cache',
                        { expires_in: 90.minutes }
 
 end
