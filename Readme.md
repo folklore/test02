@@ -1,20 +1,21 @@
-Для подключения и для запросов к flickr:
+That can be seen on heroku ...
+
+**[test02](http://nameless-ravine-1816.herokuapp.com/)**
+
+I use this gem to connect and queries to the Flickr:
 https://github.com/commonthread/flickr_fu
 
-Для общего развития, так как запросы к кешу делаются так же, как и с Memcached:
-http://www.ruby-doc.org/gems/docs/x/xlymian-redis-store-0.3.8/ActiveSupport/Cache/RedisStore.html
-
-Помощь по bootstrap:
+Bootstrap's instruction:
 http://getbootstrap.com/css/#forms
 
-джем для redis:
+It's a redis's gem for rails:
 https://github.com/redis-store/redis-rails
 
-Инструкция по подключению redis на heroku:
+Instruction for connect redis to rails on heroku:
 https://devcenter.heroku.com/articles/rediscloud#configuring-redis-on-rails
 
-api по запросу к flickr:
+api's help by flickr:
 https://www.flickr.com/services/api/flickr.photos.search.html
 
-Письмо с заданием:
+Letter with the task:
 https://mail.yandex.ru/neo2/#message/2450000005225637738
