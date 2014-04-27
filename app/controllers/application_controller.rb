@@ -25,6 +25,5 @@ class ApplicationController < ActionController::Base
     Rails.cache.write("expires_in",
                       params[:expire],
                       expires_in: Rails.cache.read('expires_in') || 90.minutes)
-    render nothing: true
   end
 end
