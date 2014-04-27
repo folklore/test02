@@ -6,6 +6,6 @@ Vladimir::Application.routes.draw do
   root 'application#index'
 
   post 'search' =>      'application#search',      as: :search
-  post 'set_expires' => 'application#set_expires', as: :set_expires
+  post 'set_expire' => 'application#set_expire', as: :set_expire
 
 end

@@ -1,4 +1,4 @@
-Для подключения и запросов к flickr:
+Для подключения и для запросов к flickr:
 https://github.com/commonthread/flickr_fu
 
 Для общего развития, так как запросы к кешу делаются так же, как и с Memcached:
@@ -10,7 +10,7 @@ http://getbootstrap.com/css/#forms
 джем для redis:
 https://github.com/redis-store/redis-rails
 
-Инструкция к redis для heroku:
+Инструкция по подключению redis на heroku:
 https://devcenter.heroku.com/articles/rediscloud#configuring-redis-on-rails
 
 api по запросу к flickr:

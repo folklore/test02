@@ -13,12 +13,12 @@
     <% end %>
   </div>
   <div class="col-md-6">
-    <%= form_tag :set_expires,
+    <%= form_tag :set_expire,
                   remote: true,
                   role: "form",
                   class: "form-inline" do %>
       <div class="form-group">
-        expires_in: <%= text_field_tag :expires, 60, class: "form-control" %> минут
+        expires_in: <%= text_field_tag :expire, 60, class: "form-control" %> минут
       </div>
       <%= submit_tag nil, name: nil, class: "btn btn-primary btn-sm" %>
     <% end %>
