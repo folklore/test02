@@ -1,7 +1,3 @@
-That can be seen on heroku ...
-
-**[test02](http://nameless-ravine-1816.herokuapp.com/)**
-
 I use this gem to connect and queries to the Flickr:
 https://github.com/commonthread/flickr_fu
 
